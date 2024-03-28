@@ -1,0 +1,768 @@
+decay_rate is set to 1.0
+outputs[:10,0] tensor([0.8209, 0.5562, 0.5925, 0.6333, 0.6868, 0.6883, 0.1600, 0.4786, 0.6512,
+        0.0643], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 0, PLCC: 0.7845, SROCC: 0.7477, MSE: 0.0227
+Validation Results - Fold: 0, Epoch: 0, PLCC: 0.7643, SROCC: 0.7356, MSE: 0.0220, Best PLCC: 0.7643, Best SROCC: 0.7356, Best MSE: 0.0220
+outputs[:10,0] tensor([0.5467, 0.5403, 0.4412, 0.6106, 0.3417, 0.7045, 0.2118, 0.4471, 0.6446,
+        0.0838], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 1, PLCC: 0.8644, SROCC: 0.8304, MSE: 0.0078
+Validation Results - Fold: 0, Epoch: 1, PLCC: 0.8271, SROCC: 0.7956, MSE: 0.0097, Best PLCC: 0.8271, Best SROCC: 0.7956, Best MSE: 0.0097
+outputs[:10,0] tensor([0.6988, 0.5430, 0.3737, 0.6398, 0.4571, 0.7157, 0.2361, 0.2470, 0.4708,
+        0.0466], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 2, PLCC: 0.8858, SROCC: 0.8556, MSE: 0.0069
+Validation Results - Fold: 0, Epoch: 2, PLCC: 0.8407, SROCC: 0.8143, MSE: 0.0101, Best PLCC: 0.8407, Best SROCC: 0.8143, Best MSE: 0.0097
+outputs[:10,0] tensor([0.5805, 0.7323, 0.2576, 0.5229, 0.2368, 0.6484, 0.4680, 0.5074, 0.6290,
+        0.2981], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 3, PLCC: 0.8961, SROCC: 0.8570, MSE: 0.0058
+Validation Results - Fold: 0, Epoch: 3, PLCC: 0.8276, SROCC: 0.7963, MSE: 0.0098, Best PLCC: 0.8407, Best SROCC: 0.8143, Best MSE: 0.0097
+outputs[:10,0] tensor([0.3215, 0.7418, 0.6272, 0.4558, 0.5599, 0.7299, 0.1822, 0.3287, 0.7705,
+        0.0891], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 4, PLCC: 0.8966, SROCC: 0.8622, MSE: 0.0065
+Validation Results - Fold: 0, Epoch: 4, PLCC: 0.8447, SROCC: 0.8200, MSE: 0.0097, Best PLCC: 0.8447, Best SROCC: 0.8200, Best MSE: 0.0097
+outputs[:10,0] tensor([0.4513, 0.7065, 0.5411, 0.6666, 0.2600, 0.6555, 0.2432, 0.2909, 0.5672,
+        0.0179], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 5, PLCC: 0.9070, SROCC: 0.8831, MSE: 0.0057
+Validation Results - Fold: 0, Epoch: 5, PLCC: 0.8588, SROCC: 0.8393, MSE: 0.0089, Best PLCC: 0.8588, Best SROCC: 0.8393, Best MSE: 0.0089
+outputs[:10,0] tensor([0.6205, 0.5994, 0.4475, 0.6052, 0.5484, 0.6031, 0.1138, 0.3592, 0.7523,
+        0.0437], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 6, PLCC: 0.9022, SROCC: 0.8766, MSE: 0.0070
+Validation Results - Fold: 0, Epoch: 6, PLCC: 0.8476, SROCC: 0.8338, MSE: 0.0106, Best PLCC: 0.8588, Best SROCC: 0.8393, Best MSE: 0.0089
+outputs[:10,0] tensor([0.4282, 0.4941, 0.5376, 0.3671, 0.4167, 0.5237, 0.3151, 0.4104, 0.5826,
+        0.1203], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 7, PLCC: 0.9138, SROCC: 0.8927, MSE: 0.0049
+Validation Results - Fold: 0, Epoch: 7, PLCC: 0.8617, SROCC: 0.8375, MSE: 0.0080, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.7889, 0.7934, 0.4985, 0.3821, 0.7021, 0.5748, 0.2056, 0.2449, 0.5318,
+        0.0245], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 8, PLCC: 0.9153, SROCC: 0.8945, MSE: 0.0052
+Validation Results - Fold: 0, Epoch: 8, PLCC: 0.8609, SROCC: 0.8358, MSE: 0.0089, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.5961, 0.4996, 0.6529, 0.4309, 0.2998, 0.6396, 0.1401, 0.4085, 0.6717,
+        0.0412], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 9, PLCC: 0.9253, SROCC: 0.9027, MSE: 0.0045
+Validation Results - Fold: 0, Epoch: 9, PLCC: 0.8347, SROCC: 0.7948, MSE: 0.0096, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+decay_rate is set to 0.8
+outputs[:10,0] tensor([0.5167, 0.4954, 0.2656, 0.5516, 0.3954, 0.5784, 0.3168, 0.2599, 0.7078,
+        0.0570], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 10, PLCC: 0.9347, SROCC: 0.9174, MSE: 0.0039
+Validation Results - Fold: 0, Epoch: 10, PLCC: 0.8482, SROCC: 0.8160, MSE: 0.0092, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.5244, 0.7149, 0.4801, 0.7617, 0.3790, 0.6968, 0.1580, 0.3917, 0.6522,
+        0.0459], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 11, PLCC: 0.9340, SROCC: 0.9165, MSE: 0.0047
+Validation Results - Fold: 0, Epoch: 11, PLCC: 0.8471, SROCC: 0.8249, MSE: 0.0102, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.6779, 0.4847, 0.5467, 0.4597, 0.4995, 0.5330, 0.1379, 0.4950, 0.5750,
+        0.0556], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 12, PLCC: 0.9345, SROCC: 0.9162, MSE: 0.0040
+Validation Results - Fold: 0, Epoch: 12, PLCC: 0.8589, SROCC: 0.8266, MSE: 0.0086, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.7496, 0.6435, 0.3984, 0.7588, 0.1815, 0.5531, 0.2265, 0.3195, 0.4920,
+        0.0463], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 13, PLCC: 0.9405, SROCC: 0.9258, MSE: 0.0035
+Validation Results - Fold: 0, Epoch: 13, PLCC: 0.8608, SROCC: 0.8293, MSE: 0.0083, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.3920, 0.7261, 0.5626, 0.6394, 0.3761, 0.7902, 0.4578, 0.4018, 0.6253,
+        0.0817], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 14, PLCC: 0.9400, SROCC: 0.9215, MSE: 0.0045
+Validation Results - Fold: 0, Epoch: 14, PLCC: 0.8451, SROCC: 0.8009, MSE: 0.0099, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.5056, 0.6598, 0.5673, 0.6666, 0.2246, 0.5587, 0.2492, 0.3979, 0.6559,
+        0.0348], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 15, PLCC: 0.9485, SROCC: 0.9377, MSE: 0.0032
+Validation Results - Fold: 0, Epoch: 15, PLCC: 0.8612, SROCC: 0.8250, MSE: 0.0086, Best PLCC: 0.8617, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.5508, 0.7116, 0.4734, 0.6125, 0.2588, 0.5638, 0.1847, 0.4363, 0.7926,
+        0.0881], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 16, PLCC: 0.9394, SROCC: 0.9258, MSE: 0.0043
+Validation Results - Fold: 0, Epoch: 16, PLCC: 0.8624, SROCC: 0.8306, MSE: 0.0090, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.6215, 0.4259, 0.4415, 0.4458, 0.3216, 0.5591, 0.2811, 0.4157, 0.6308,
+        0.0793], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 17, PLCC: 0.9581, SROCC: 0.9473, MSE: 0.0028
+Validation Results - Fold: 0, Epoch: 17, PLCC: 0.8562, SROCC: 0.8228, MSE: 0.0085, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.5816, 0.6480, 0.5699, 0.5943, 0.5466, 0.7189, 0.3501, 0.3018, 0.7272,
+        0.0143], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 18, PLCC: 0.9497, SROCC: 0.9338, MSE: 0.0033
+Validation Results - Fold: 0, Epoch: 18, PLCC: 0.8372, SROCC: 0.7966, MSE: 0.0097, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.4165, 0.7116, 0.3636, 0.7854, 0.4447, 0.6142, 0.3001, 0.2349, 0.6558,
+        0.0623], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 19, PLCC: 0.9611, SROCC: 0.9560, MSE: 0.0024
+Validation Results - Fold: 0, Epoch: 19, PLCC: 0.8607, SROCC: 0.8262, MSE: 0.0084, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+decay_rate is set to 0.6400000000000001
+outputs[:10,0] tensor([0.4949, 0.7134, 0.4792, 0.5714, 0.3309, 0.7644, 0.2896, 0.5954, 0.6208,
+        0.0850], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 20, PLCC: 0.9637, SROCC: 0.9581, MSE: 0.0021
+Validation Results - Fold: 0, Epoch: 20, PLCC: 0.8571, SROCC: 0.8190, MSE: 0.0083, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.6104, 0.6980, 0.3977, 0.7412, 0.2886, 0.6994, 0.1886, 0.3766, 0.6020,
+        0.0407], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 21, PLCC: 0.9648, SROCC: 0.9599, MSE: 0.0021
+Validation Results - Fold: 0, Epoch: 21, PLCC: 0.8589, SROCC: 0.8235, MSE: 0.0082, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.5707, 0.5562, 0.5044, 0.5967, 0.4856, 0.5802, 0.3141, 0.4259, 0.5830,
+        0.0649], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 22, PLCC: 0.9659, SROCC: 0.9605, MSE: 0.0020
+Validation Results - Fold: 0, Epoch: 22, PLCC: 0.8568, SROCC: 0.8201, MSE: 0.0083, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.5262, 0.5153, 0.4093, 0.5854, 0.3284, 0.6596, 0.2818, 0.5056, 0.6761,
+        0.1408], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 23, PLCC: 0.9663, SROCC: 0.9612, MSE: 0.0020
+Validation Results - Fold: 0, Epoch: 23, PLCC: 0.8560, SROCC: 0.8199, MSE: 0.0084, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+outputs[:10,0] tensor([0.5346, 0.7740, 0.5478, 0.5765, 0.5857, 0.4715, 0.2049, 0.6654, 0.6979,
+        0.0606], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 0, Epoch: 24, PLCC: 0.9665, SROCC: 0.9620, MSE: 0.0020
+Validation Results - Fold: 0, Epoch: 24, PLCC: 0.8573, SROCC: 0.8213, MSE: 0.0084, Best PLCC: 0.8624, Best SROCC: 0.8393, Best MSE: 0.0080
+decay_rate is set to 1.0
+outputs[:10,0] tensor([0.5792, 0.6602, 0.5824, 0.6190, 0.3635, 0.2186, 0.4139, 0.3916, 0.3245,
+        0.1452], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 0, PLCC: 0.7662, SROCC: 0.7168, MSE: 0.0298
+Validation Results - Fold: 1, Epoch: 0, PLCC: 0.7597, SROCC: 0.6825, MSE: 0.0352, Best PLCC: 0.7597, Best SROCC: 0.6825, Best MSE: 0.0352
+outputs[:10,0] tensor([0.5545, 0.6422, 0.7884, 0.3946, 0.5319, 0.1341, 0.4657, 0.4388, 0.7003,
+        0.1657], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 1, PLCC: 0.8360, SROCC: 0.7922, MSE: 0.0089
+Validation Results - Fold: 1, Epoch: 1, PLCC: 0.8235, SROCC: 0.7885, MSE: 0.0107, Best PLCC: 0.8235, Best SROCC: 0.7885, Best MSE: 0.0107
+outputs[:10,0] tensor([0.5706, 0.2640, 0.5708, 0.3762, 0.5844, 0.1439, 0.5189, 0.6015, 0.7878,
+        0.1813], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 2, PLCC: 0.8788, SROCC: 0.8441, MSE: 0.0065
+Validation Results - Fold: 1, Epoch: 2, PLCC: 0.8540, SROCC: 0.8092, MSE: 0.0088, Best PLCC: 0.8540, Best SROCC: 0.8092, Best MSE: 0.0088
+outputs[:10,0] tensor([0.5607, 0.4146, 0.5168, 0.5509, 0.6602, 0.3744, 0.3754, 0.3954, 0.6060,
+        0.1576], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 3, PLCC: 0.8915, SROCC: 0.8679, MSE: 0.0060
+Validation Results - Fold: 1, Epoch: 3, PLCC: 0.8539, SROCC: 0.8108, MSE: 0.0089, Best PLCC: 0.8540, Best SROCC: 0.8108, Best MSE: 0.0088
+outputs[:10,0] tensor([0.6394, 0.3578, 0.5742, 0.4018, 0.6038, 0.3436, 0.3595, 0.3305, 0.3784,
+        0.1085], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 4, PLCC: 0.8902, SROCC: 0.8682, MSE: 0.0060
+Validation Results - Fold: 1, Epoch: 4, PLCC: 0.8495, SROCC: 0.8046, MSE: 0.0090, Best PLCC: 0.8540, Best SROCC: 0.8108, Best MSE: 0.0088
+outputs[:10,0] tensor([0.5867, 0.5613, 0.5665, 0.3781, 0.4904, 0.3498, 0.2240, 0.1996, 0.6309,
+        0.0397], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 5, PLCC: 0.9039, SROCC: 0.8801, MSE: 0.0053
+Validation Results - Fold: 1, Epoch: 5, PLCC: 0.8540, SROCC: 0.8097, MSE: 0.0089, Best PLCC: 0.8540, Best SROCC: 0.8108, Best MSE: 0.0088
+outputs[:10,0] tensor([0.5985, 0.3630, 0.5697, 0.5441, 0.7274, 0.1566, 0.5384, 0.5137, 0.6622,
+        0.1407], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 6, PLCC: 0.9048, SROCC: 0.8826, MSE: 0.0052
+Validation Results - Fold: 1, Epoch: 6, PLCC: 0.8696, SROCC: 0.8196, MSE: 0.0079, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.5939, 0.6002, 0.4638, 0.3573, 0.3993, 0.2069, 0.5670, 0.2775, 0.5425,
+        0.0646], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 7, PLCC: 0.9083, SROCC: 0.8880, MSE: 0.0053
+Validation Results - Fold: 1, Epoch: 7, PLCC: 0.8497, SROCC: 0.8030, MSE: 0.0094, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.5206, 0.5856, 0.3325, 0.4909, 0.4728, 0.2293, 0.4560, 0.3290, 0.7321,
+        0.1485], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 8, PLCC: 0.9185, SROCC: 0.8988, MSE: 0.0045
+Validation Results - Fold: 1, Epoch: 8, PLCC: 0.8619, SROCC: 0.8020, MSE: 0.0084, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.6423, 0.5574, 0.7025, 0.5327, 0.8018, 0.1081, 0.3460, 0.4463, 0.3251,
+        0.1266], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 9, PLCC: 0.9184, SROCC: 0.9048, MSE: 0.0047
+Validation Results - Fold: 1, Epoch: 9, PLCC: 0.8578, SROCC: 0.8065, MSE: 0.0089, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+decay_rate is set to 0.8
+outputs[:10,0] tensor([0.8266, 0.3844, 0.7060, 0.2029, 0.6282, 0.2398, 0.5084, 0.3812, 0.7149,
+        0.1015], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 10, PLCC: 0.9187, SROCC: 0.9021, MSE: 0.0045
+Validation Results - Fold: 1, Epoch: 10, PLCC: 0.8691, SROCC: 0.8173, MSE: 0.0080, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.5776, 0.5172, 0.7174, 0.4959, 0.8570, 0.2618, 0.4185, 0.2366, 0.4420,
+        0.1505], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 11, PLCC: 0.9265, SROCC: 0.9145, MSE: 0.0043
+Validation Results - Fold: 1, Epoch: 11, PLCC: 0.8623, SROCC: 0.8107, MSE: 0.0087, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.7000, 0.4188, 0.6239, 0.3841, 0.7690, 0.1748, 0.5495, 0.3749, 0.6509,
+        0.0903], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 12, PLCC: 0.9280, SROCC: 0.9202, MSE: 0.0042
+Validation Results - Fold: 1, Epoch: 12, PLCC: 0.8591, SROCC: 0.8104, MSE: 0.0089, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.6286, 0.5489, 0.6440, 0.3198, 0.7545, 0.1686, 0.4291, 0.4060, 0.5967,
+        0.0712], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 13, PLCC: 0.9318, SROCC: 0.9228, MSE: 0.0039
+Validation Results - Fold: 1, Epoch: 13, PLCC: 0.8661, SROCC: 0.8168, MSE: 0.0083, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.5938, 0.5638, 0.5007, 0.5355, 0.5001, 0.2356, 0.5852, 0.4215, 0.7323,
+        0.0346], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 14, PLCC: 0.9379, SROCC: 0.9274, MSE: 0.0035
+Validation Results - Fold: 1, Epoch: 14, PLCC: 0.8656, SROCC: 0.8151, MSE: 0.0082, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.5673, 0.5511, 0.5200, 0.5300, 0.5982, 0.1922, 0.2890, 0.3177, 0.5317,
+        0.0859], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 15, PLCC: 0.9378, SROCC: 0.9302, MSE: 0.0036
+Validation Results - Fold: 1, Epoch: 15, PLCC: 0.8599, SROCC: 0.8106, MSE: 0.0088, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.6918, 0.4572, 0.6312, 0.4271, 0.6000, 0.2146, 0.4870, 0.3824, 0.6129,
+        0.0142], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 16, PLCC: 0.9394, SROCC: 0.9304, MSE: 0.0034
+Validation Results - Fold: 1, Epoch: 16, PLCC: 0.8652, SROCC: 0.8142, MSE: 0.0083, Best PLCC: 0.8696, Best SROCC: 0.8196, Best MSE: 0.0079
+outputs[:10,0] tensor([0.7320, 0.5394, 0.6443, 0.4979, 0.5780, 0.1550, 0.4725, 0.5359, 0.6220,
+        0.0895], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 17, PLCC: 0.9430, SROCC: 0.9361, MSE: 0.0032
+Validation Results - Fold: 1, Epoch: 17, PLCC: 0.8676, SROCC: 0.8221, MSE: 0.0082, Best PLCC: 0.8696, Best SROCC: 0.8221, Best MSE: 0.0079
+outputs[:10,0] tensor([0.6323, 0.4356, 0.6756, 0.5724, 0.5849, 0.2198, 0.5275, 0.3495, 0.5866,
+        0.0429], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 18, PLCC: 0.9440, SROCC: 0.9369, MSE: 0.0031
+Validation Results - Fold: 1, Epoch: 18, PLCC: 0.8685, SROCC: 0.8233, MSE: 0.0081, Best PLCC: 0.8696, Best SROCC: 0.8233, Best MSE: 0.0079
+outputs[:10,0] tensor([0.5757, 0.4820, 0.8170, 0.4365, 0.6735, 0.3590, 0.3292, 0.5521, 0.5510,
+        0.0825], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 19, PLCC: 0.9434, SROCC: 0.9368, MSE: 0.0032
+Validation Results - Fold: 1, Epoch: 19, PLCC: 0.8679, SROCC: 0.8236, MSE: 0.0083, Best PLCC: 0.8696, Best SROCC: 0.8236, Best MSE: 0.0079
+decay_rate is set to 0.6400000000000001
+outputs[:10,0] tensor([0.6390, 0.4129, 0.7898, 0.2683, 0.5961, 0.2637, 0.3722, 0.5022, 0.6099,
+        0.0425], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 20, PLCC: 0.9437, SROCC: 0.9375, MSE: 0.0032
+Validation Results - Fold: 1, Epoch: 20, PLCC: 0.8674, SROCC: 0.8232, MSE: 0.0083, Best PLCC: 0.8696, Best SROCC: 0.8236, Best MSE: 0.0079
+outputs[:10,0] tensor([0.3979, 0.4606, 0.5966, 0.5127, 0.5458, 0.2094, 0.4073, 0.3410, 0.6246,
+        0.0825], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 21, PLCC: 0.9449, SROCC: 0.9381, MSE: 0.0031
+Validation Results - Fold: 1, Epoch: 21, PLCC: 0.8685, SROCC: 0.8255, MSE: 0.0081, Best PLCC: 0.8696, Best SROCC: 0.8255, Best MSE: 0.0079
+outputs[:10,0] tensor([0.7392, 0.5493, 0.6243, 0.3808, 0.6950, 0.2047, 0.4648, 0.3751, 0.5099,
+        0.1568], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 22, PLCC: 0.9452, SROCC: 0.9386, MSE: 0.0031
+Validation Results - Fold: 1, Epoch: 22, PLCC: 0.8686, SROCC: 0.8246, MSE: 0.0081, Best PLCC: 0.8696, Best SROCC: 0.8255, Best MSE: 0.0079
+outputs[:10,0] tensor([0.7535, 0.5137, 0.4843, 0.5571, 0.6148, 0.2593, 0.5041, 0.3427, 0.5216,
+        0.0936], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 23, PLCC: 0.9454, SROCC: 0.9391, MSE: 0.0031
+Validation Results - Fold: 1, Epoch: 23, PLCC: 0.8687, SROCC: 0.8266, MSE: 0.0081, Best PLCC: 0.8696, Best SROCC: 0.8266, Best MSE: 0.0079
+outputs[:10,0] tensor([0.6059, 0.5033, 0.6556, 0.4552, 0.7224, 0.3050, 0.6563, 0.5469, 0.6574,
+        0.0983], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089, 0.5979,
+        0.0046], device='cuda:0')
+Train Results - Fold: 1, Epoch: 24, PLCC: 0.9459, SROCC: 0.9395, MSE: 0.0030
+Validation Results - Fold: 1, Epoch: 24, PLCC: 0.8687, SROCC: 0.8257, MSE: 0.0081, Best PLCC: 0.8696, Best SROCC: 0.8266, Best MSE: 0.0079
+decay_rate is set to 1.0
+outputs[:10,0] tensor([0.4375, 0.3852, 0.6173, 0.6920, 0.2490, 0.5578, 0.6158, 0.4343, 0.1577,
+        0.4870], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 0, PLCC: 0.7439, SROCC: 0.7157, MSE: 0.0301
+Validation Results - Fold: 2, Epoch: 0, PLCC: 0.6930, SROCC: 0.6272, MSE: 0.0247, Best PLCC: 0.6930, Best SROCC: 0.6272, Best MSE: 0.0247
+outputs[:10,0] tensor([0.3425, 0.4651, 0.4282, 0.4780, 0.2778, 0.6166, 0.6545, 0.6437, 0.0618,
+        0.5786], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 1, PLCC: 0.8510, SROCC: 0.8131, MSE: 0.0089
+Validation Results - Fold: 2, Epoch: 1, PLCC: 0.7598, SROCC: 0.6768, MSE: 0.0109, Best PLCC: 0.7598, Best SROCC: 0.6768, Best MSE: 0.0109
+outputs[:10,0] tensor([0.3669, 0.3754, 0.4870, 0.7285, 0.6487, 0.6956, 0.4119, 0.6256, 0.0577,
+        0.6329], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 2, PLCC: 0.8849, SROCC: 0.8599, MSE: 0.0067
+Validation Results - Fold: 2, Epoch: 2, PLCC: 0.7751, SROCC: 0.6816, MSE: 0.0113, Best PLCC: 0.7751, Best SROCC: 0.6816, Best MSE: 0.0109
+outputs[:10,0] tensor([0.4652, 0.5145, 0.4737, 0.6370, 0.5095, 0.5974, 0.3671, 0.6635, 0.0984,
+        0.2776], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 3, PLCC: 0.8924, SROCC: 0.8679, MSE: 0.0065
+Validation Results - Fold: 2, Epoch: 3, PLCC: 0.7908, SROCC: 0.7280, MSE: 0.0102, Best PLCC: 0.7908, Best SROCC: 0.7280, Best MSE: 0.0102
+outputs[:10,0] tensor([0.3533, 0.4759, 0.4461, 0.6027, 0.5208, 0.7235, 0.4270, 0.5332, 0.0613,
+        0.7282], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 4, PLCC: 0.9028, SROCC: 0.8822, MSE: 0.0060
+Validation Results - Fold: 2, Epoch: 4, PLCC: 0.7834, SROCC: 0.7108, MSE: 0.0117, Best PLCC: 0.7908, Best SROCC: 0.7280, Best MSE: 0.0102
+outputs[:10,0] tensor([0.2358, 0.6912, 0.3125, 0.6099, 0.2627, 0.5262, 0.1782, 0.7536, 0.1762,
+        0.2416], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 5, PLCC: 0.9084, SROCC: 0.8810, MSE: 0.0063
+Validation Results - Fold: 2, Epoch: 5, PLCC: 0.7995, SROCC: 0.7384, MSE: 0.0114, Best PLCC: 0.7995, Best SROCC: 0.7384, Best MSE: 0.0102
+outputs[:10,0] tensor([0.2249, 0.5203, 0.4431, 0.6470, 0.5444, 0.5247, 0.4428, 0.5331, 0.0767,
+        0.4083], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 6, PLCC: 0.9086, SROCC: 0.8945, MSE: 0.0082
+Validation Results - Fold: 2, Epoch: 6, PLCC: 0.8050, SROCC: 0.7307, MSE: 0.0123, Best PLCC: 0.8050, Best SROCC: 0.7384, Best MSE: 0.0102
+outputs[:10,0] tensor([0.2063, 0.4934, 0.5002, 0.5921, 0.5914, 0.5229, 0.5004, 0.4503, 0.1834,
+        0.4949], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 7, PLCC: 0.9084, SROCC: 0.8841, MSE: 0.0061
+Validation Results - Fold: 2, Epoch: 7, PLCC: 0.7838, SROCC: 0.7115, MSE: 0.0119, Best PLCC: 0.8050, Best SROCC: 0.7384, Best MSE: 0.0102
+outputs[:10,0] tensor([0.5321, 0.4662, 0.6195, 0.3587, 0.4124, 0.6163, 0.5315, 0.7069, 0.0288,
+        0.1978], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 8, PLCC: 0.9231, SROCC: 0.9043, MSE: 0.0045
+Validation Results - Fold: 2, Epoch: 8, PLCC: 0.8009, SROCC: 0.7440, MSE: 0.0098, Best PLCC: 0.8050, Best SROCC: 0.7440, Best MSE: 0.0098
+outputs[:10,0] tensor([0.4880, 0.6891, 0.3836, 0.5669, 0.3832, 0.7145, 0.3619, 0.5456, 0.0288,
+        0.4150], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 9, PLCC: 0.9235, SROCC: 0.9012, MSE: 0.0047
+Validation Results - Fold: 2, Epoch: 9, PLCC: 0.7947, SROCC: 0.7192, MSE: 0.0105, Best PLCC: 0.8050, Best SROCC: 0.7440, Best MSE: 0.0098
+decay_rate is set to 0.8
+outputs[:10,0] tensor([0.2476, 0.5908, 0.5204, 0.4689, 0.3891, 0.7067, 0.4899, 0.5071, 0.0541,
+        0.5043], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 10, PLCC: 0.9309, SROCC: 0.9146, MSE: 0.0041
+Validation Results - Fold: 2, Epoch: 10, PLCC: 0.8034, SROCC: 0.7347, MSE: 0.0097, Best PLCC: 0.8050, Best SROCC: 0.7440, Best MSE: 0.0097
+outputs[:10,0] tensor([0.4427, 0.4436, 0.4488, 0.7387, 0.4084, 0.7621, 0.4218, 0.7121, 0.0968,
+        0.3597], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 11, PLCC: 0.9363, SROCC: 0.9216, MSE: 0.0038
+Validation Results - Fold: 2, Epoch: 11, PLCC: 0.8121, SROCC: 0.7558, MSE: 0.0094, Best PLCC: 0.8121, Best SROCC: 0.7558, Best MSE: 0.0094
+outputs[:10,0] tensor([0.4655, 0.7217, 0.5112, 0.5489, 0.4662, 0.5828, 0.4671, 0.6498, 0.0327,
+        0.6304], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 12, PLCC: 0.9419, SROCC: 0.9273, MSE: 0.0040
+Validation Results - Fold: 2, Epoch: 12, PLCC: 0.8092, SROCC: 0.7401, MSE: 0.0094, Best PLCC: 0.8121, Best SROCC: 0.7558, Best MSE: 0.0094
+outputs[:10,0] tensor([0.1618, 0.6417, 0.6283, 0.6755, 0.5122, 0.6598, 0.4458, 0.5481, 0.1238,
+        0.5467], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 13, PLCC: 0.9471, SROCC: 0.9343, MSE: 0.0031
+Validation Results - Fold: 2, Epoch: 13, PLCC: 0.8067, SROCC: 0.7397, MSE: 0.0094, Best PLCC: 0.8121, Best SROCC: 0.7558, Best MSE: 0.0094
+outputs[:10,0] tensor([0.5129, 0.6381, 0.5741, 0.7631, 0.4157, 0.7176, 0.4498, 0.4701, 0.0652,
+        0.5295], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 14, PLCC: 0.9425, SROCC: 0.9305, MSE: 0.0047
+Validation Results - Fold: 2, Epoch: 14, PLCC: 0.8076, SROCC: 0.7441, MSE: 0.0106, Best PLCC: 0.8121, Best SROCC: 0.7558, Best MSE: 0.0094
+outputs[:10,0] tensor([0.2725, 0.6907, 0.6089, 0.4399, 0.4909, 0.6303, 0.5146, 0.6716, 0.0584,
+        0.3716], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 15, PLCC: 0.9492, SROCC: 0.9401, MSE: 0.0030
+Validation Results - Fold: 2, Epoch: 15, PLCC: 0.8156, SROCC: 0.7460, MSE: 0.0091, Best PLCC: 0.8156, Best SROCC: 0.7558, Best MSE: 0.0091
+outputs[:10,0] tensor([0.2429, 0.6552, 0.4515, 0.7250, 0.3684, 0.6942, 0.3875, 0.5142, 0.0977,
+        0.3920], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 16, PLCC: 0.9490, SROCC: 0.9377, MSE: 0.0030
+Validation Results - Fold: 2, Epoch: 16, PLCC: 0.8194, SROCC: 0.7600, MSE: 0.0089, Best PLCC: 0.8194, Best SROCC: 0.7600, Best MSE: 0.0089
+outputs[:10,0] tensor([0.2958, 0.5170, 0.4207, 0.5874, 0.3310, 0.7164, 0.5404, 0.6386, 0.0448,
+        0.5616], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 17, PLCC: 0.9503, SROCC: 0.9414, MSE: 0.0037
+Validation Results - Fold: 2, Epoch: 17, PLCC: 0.8179, SROCC: 0.7585, MSE: 0.0093, Best PLCC: 0.8194, Best SROCC: 0.7600, Best MSE: 0.0089
+outputs[:10,0] tensor([0.3372, 0.5720, 0.4967, 0.6289, 0.6148, 0.5588, 0.4571, 0.3828, 0.0508,
+        0.4217], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 18, PLCC: 0.9510, SROCC: 0.9429, MSE: 0.0036
+Validation Results - Fold: 2, Epoch: 18, PLCC: 0.8129, SROCC: 0.7534, MSE: 0.0097, Best PLCC: 0.8194, Best SROCC: 0.7600, Best MSE: 0.0089
+outputs[:10,0] tensor([0.2952, 0.7161, 0.2345, 0.4671, 0.5191, 0.4470, 0.5710, 0.5155, 0.0270,
+        0.5891], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 19, PLCC: 0.9520, SROCC: 0.9425, MSE: 0.0030
+Validation Results - Fold: 2, Epoch: 19, PLCC: 0.8164, SROCC: 0.7601, MSE: 0.0091, Best PLCC: 0.8194, Best SROCC: 0.7601, Best MSE: 0.0089
+decay_rate is set to 0.6400000000000001
+outputs[:10,0] tensor([0.1774, 0.7101, 0.2667, 0.4866, 0.3746, 0.7192, 0.5849, 0.5975, 0.1167,
+        0.4520], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 20, PLCC: 0.9538, SROCC: 0.9483, MSE: 0.0032
+Validation Results - Fold: 2, Epoch: 20, PLCC: 0.8163, SROCC: 0.7554, MSE: 0.0095, Best PLCC: 0.8194, Best SROCC: 0.7601, Best MSE: 0.0089
+outputs[:10,0] tensor([0.3502, 0.6707, 0.3653, 0.5360, 0.3818, 0.7832, 0.6095, 0.5190, 0.1071,
+        0.5769], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 21, PLCC: 0.9560, SROCC: 0.9506, MSE: 0.0029
+Validation Results - Fold: 2, Epoch: 21, PLCC: 0.8154, SROCC: 0.7520, MSE: 0.0095, Best PLCC: 0.8194, Best SROCC: 0.7601, Best MSE: 0.0089
+outputs[:10,0] tensor([0.2990, 0.6812, 0.3851, 0.4575, 0.4627, 0.6239, 0.6201, 0.4367, 0.0664,
+        0.3645], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 22, PLCC: 0.9581, SROCC: 0.9524, MSE: 0.0027
+Validation Results - Fold: 2, Epoch: 22, PLCC: 0.8156, SROCC: 0.7536, MSE: 0.0094, Best PLCC: 0.8194, Best SROCC: 0.7601, Best MSE: 0.0089
+outputs[:10,0] tensor([0.2665, 0.6447, 0.4158, 0.6938, 0.2829, 0.6504, 0.4549, 0.5915, 0.0663,
+        0.4555], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 23, PLCC: 0.9601, SROCC: 0.9541, MSE: 0.0024
+Validation Results - Fold: 2, Epoch: 23, PLCC: 0.8172, SROCC: 0.7545, MSE: 0.0092, Best PLCC: 0.8194, Best SROCC: 0.7601, Best MSE: 0.0089
+outputs[:10,0] tensor([0.2043, 0.7089, 0.4989, 0.6410, 0.4154, 0.7807, 0.5183, 0.4032, 0.0109,
+        0.6356], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.3330, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.4618, 0.5979, 0.0046,
+        0.4818], device='cuda:0')
+Train Results - Fold: 2, Epoch: 24, PLCC: 0.9605, SROCC: 0.9544, MSE: 0.0024
+Validation Results - Fold: 2, Epoch: 24, PLCC: 0.8179, SROCC: 0.7571, MSE: 0.0091, Best PLCC: 0.8194, Best SROCC: 0.7601, Best MSE: 0.0089
+decay_rate is set to 1.0
+outputs[:10,0] tensor([0.8672, 0.5058, 0.1370, 0.6914, 0.5503, 0.4886, 0.8101, 0.2162, 0.5588,
+        0.3345], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 0, PLCC: 0.1578, SROCC: 0.1223, MSE: 0.0305
+Validation Results - Fold: 3, Epoch: 0, PLCC: -0.0472, SROCC: -0.0940, MSE: 0.0306, Best PLCC: 0.0000, Best SROCC: 0.0000, Best MSE: 0.0306
+outputs[:10,0] tensor([0.5267, 0.8146, 0.0857, 0.3123, 0.4421, 0.5412, 0.5477, 0.1113, 0.2229,
+        0.3210], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 1, PLCC: 0.8075, SROCC: 0.7751, MSE: 0.0122
+Validation Results - Fold: 3, Epoch: 1, PLCC: 0.7952, SROCC: 0.7218, MSE: 0.0136, Best PLCC: 0.7952, Best SROCC: 0.7218, Best MSE: 0.0136
+outputs[:10,0] tensor([0.6486, 0.7842, 0.1652, 0.6366, 0.4913, 0.5174, 0.7669, 0.1871, 0.4769,
+        0.3534], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 2, PLCC: 0.8824, SROCC: 0.8575, MSE: 0.0069
+Validation Results - Fold: 3, Epoch: 2, PLCC: 0.8502, SROCC: 0.7804, MSE: 0.0077, Best PLCC: 0.8502, Best SROCC: 0.7804, Best MSE: 0.0077
+outputs[:10,0] tensor([0.7310, 0.4938, 0.3757, 0.6727, 0.5179, 0.4606, 0.7098, 0.1213, 0.6137,
+        0.2060], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 3, PLCC: 0.8872, SROCC: 0.8636, MSE: 0.0071
+Validation Results - Fold: 3, Epoch: 3, PLCC: 0.8572, SROCC: 0.7909, MSE: 0.0083, Best PLCC: 0.8572, Best SROCC: 0.7909, Best MSE: 0.0077
+outputs[:10,0] tensor([0.7149, 0.7859, 0.0611, 0.7718, 0.7837, 0.4495, 0.4271, 0.1961, 0.4618,
+        0.3475], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 4, PLCC: 0.9007, SROCC: 0.8780, MSE: 0.0057
+Validation Results - Fold: 3, Epoch: 4, PLCC: 0.8447, SROCC: 0.7697, MSE: 0.0082, Best PLCC: 0.8572, Best SROCC: 0.7909, Best MSE: 0.0077
+outputs[:10,0] tensor([0.7999, 0.7219, 0.3061, 0.8049, 0.6132, 0.6784, 0.5885, 0.1040, 0.2581,
+        0.3304], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 5, PLCC: 0.9014, SROCC: 0.8826, MSE: 0.0058
+Validation Results - Fold: 3, Epoch: 5, PLCC: 0.8291, SROCC: 0.7639, MSE: 0.0091, Best PLCC: 0.8572, Best SROCC: 0.7909, Best MSE: 0.0077
+outputs[:10,0] tensor([0.6009, 0.6746, 0.1414, 0.7082, 0.6926, 0.4409, 0.4977, 0.1933, 0.3145,
+        0.3415], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 6, PLCC: 0.9100, SROCC: 0.8962, MSE: 0.0055
+Validation Results - Fold: 3, Epoch: 6, PLCC: 0.8524, SROCC: 0.7844, MSE: 0.0083, Best PLCC: 0.8572, Best SROCC: 0.7909, Best MSE: 0.0077
+outputs[:10,0] tensor([0.4708, 0.5798, 0.1601, 0.7749, 0.7257, 0.3174, 0.6606, 0.1907, 0.3577,
+        0.3785], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 7, PLCC: 0.9194, SROCC: 0.9018, MSE: 0.0048
+Validation Results - Fold: 3, Epoch: 7, PLCC: 0.8661, SROCC: 0.8101, MSE: 0.0075, Best PLCC: 0.8661, Best SROCC: 0.8101, Best MSE: 0.0075
+outputs[:10,0] tensor([0.8201, 0.6106, 0.1979, 0.6510, 0.6597, 0.5723, 0.7921, 0.1850, 0.3747,
+        0.4085], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 8, PLCC: 0.9209, SROCC: 0.9103, MSE: 0.0049
+Validation Results - Fold: 3, Epoch: 8, PLCC: 0.8706, SROCC: 0.7969, MSE: 0.0079, Best PLCC: 0.8706, Best SROCC: 0.8101, Best MSE: 0.0075
+outputs[:10,0] tensor([0.7050, 0.5466, 0.2253, 0.6350, 0.7192, 0.4753, 0.4449, 0.1768, 0.4401,
+        0.3579], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 9, PLCC: 0.9263, SROCC: 0.9105, MSE: 0.0044
+Validation Results - Fold: 3, Epoch: 9, PLCC: 0.8625, SROCC: 0.7868, MSE: 0.0071, Best PLCC: 0.8706, Best SROCC: 0.8101, Best MSE: 0.0071
+decay_rate is set to 0.8
+outputs[:10,0] tensor([0.7207, 0.5296, 0.1108, 0.6485, 0.6012, 0.6013, 0.4070, 0.1787, 0.2992,
+        0.1557], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 10, PLCC: 0.9132, SROCC: 0.9033, MSE: 0.0060
+Validation Results - Fold: 3, Epoch: 10, PLCC: 0.8513, SROCC: 0.7815, MSE: 0.0089, Best PLCC: 0.8706, Best SROCC: 0.8101, Best MSE: 0.0071
+outputs[:10,0] tensor([0.7474, 0.6225, 0.3024, 0.7136, 0.8285, 0.7064, 0.4253, 0.2231, 0.3237,
+        0.2448], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 11, PLCC: 0.9254, SROCC: 0.9134, MSE: 0.0048
+Validation Results - Fold: 3, Epoch: 11, PLCC: 0.8684, SROCC: 0.8026, MSE: 0.0083, Best PLCC: 0.8706, Best SROCC: 0.8101, Best MSE: 0.0071
+outputs[:10,0] tensor([0.7763, 0.4849, 0.0705, 0.6852, 0.6452, 0.3562, 0.6709, 0.2540, 0.4604,
+        0.4257], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 12, PLCC: 0.9328, SROCC: 0.9203, MSE: 0.0039
+Validation Results - Fold: 3, Epoch: 12, PLCC: 0.8694, SROCC: 0.8126, MSE: 0.0071, Best PLCC: 0.8706, Best SROCC: 0.8126, Best MSE: 0.0071
+outputs[:10,0] tensor([0.7705, 0.5618, 0.1274, 0.5901, 0.6474, 0.5280, 0.4299, 0.2423, 0.6304,
+        0.3483], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 13, PLCC: 0.9382, SROCC: 0.9246, MSE: 0.0038
+Validation Results - Fold: 3, Epoch: 13, PLCC: 0.8625, SROCC: 0.8000, MSE: 0.0072, Best PLCC: 0.8706, Best SROCC: 0.8126, Best MSE: 0.0071
+outputs[:10,0] tensor([0.6566, 0.5006, 0.1616, 0.7635, 0.8331, 0.4598, 0.5707, 0.2180, 0.3375,
+        0.2114], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 14, PLCC: 0.9371, SROCC: 0.9258, MSE: 0.0038
+Validation Results - Fold: 3, Epoch: 14, PLCC: 0.8776, SROCC: 0.8163, MSE: 0.0069, Best PLCC: 0.8776, Best SROCC: 0.8163, Best MSE: 0.0069
+outputs[:10,0] tensor([0.5966, 0.5265, 0.1014, 0.7726, 0.8020, 0.4085, 0.3648, 0.1120, 0.4086,
+        0.2361], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 15, PLCC: 0.9405, SROCC: 0.9283, MSE: 0.0035
+Validation Results - Fold: 3, Epoch: 15, PLCC: 0.8781, SROCC: 0.8196, MSE: 0.0066, Best PLCC: 0.8781, Best SROCC: 0.8196, Best MSE: 0.0066
+outputs[:10,0] tensor([0.6776, 0.6150, 0.3683, 0.6958, 0.5672, 0.6679, 0.3979, 0.1692, 0.3880,
+        0.2317], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 16, PLCC: 0.9425, SROCC: 0.9293, MSE: 0.0034
+Validation Results - Fold: 3, Epoch: 16, PLCC: 0.8765, SROCC: 0.8223, MSE: 0.0065, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+outputs[:10,0] tensor([0.8049, 0.6199, 0.1467, 0.6301, 0.7285, 0.5583, 0.4744, 0.1142, 0.4866,
+        0.6373], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 17, PLCC: 0.9459, SROCC: 0.9341, MSE: 0.0032
+Validation Results - Fold: 3, Epoch: 17, PLCC: 0.8722, SROCC: 0.8098, MSE: 0.0068, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+outputs[:10,0] tensor([0.7943, 0.5366, 0.2628, 0.5440, 0.8011, 0.3764, 0.5600, 0.3950, 0.5091,
+        0.3644], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 18, PLCC: 0.9484, SROCC: 0.9369, MSE: 0.0031
+Validation Results - Fold: 3, Epoch: 18, PLCC: 0.8629, SROCC: 0.8010, MSE: 0.0071, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+outputs[:10,0] tensor([0.7645, 0.5147, 0.2621, 0.7779, 0.7513, 0.5206, 0.4753, 0.2587, 0.5130,
+        0.3244], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 19, PLCC: 0.9483, SROCC: 0.9365, MSE: 0.0030
+Validation Results - Fold: 3, Epoch: 19, PLCC: 0.8655, SROCC: 0.8030, MSE: 0.0074, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+decay_rate is set to 0.6400000000000001
+outputs[:10,0] tensor([0.7544, 0.6938, 0.1508, 0.6792, 0.4675, 0.3444, 0.4409, 0.2166, 0.6358,
+        0.2172], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 20, PLCC: 0.9494, SROCC: 0.9372, MSE: 0.0030
+Validation Results - Fold: 3, Epoch: 20, PLCC: 0.8613, SROCC: 0.8007, MSE: 0.0074, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+outputs[:10,0] tensor([0.8039, 0.6133, 0.2587, 0.7251, 0.7879, 0.4632, 0.5453, 0.1337, 0.3821,
+        0.4010], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 21, PLCC: 0.9490, SROCC: 0.9368, MSE: 0.0030
+Validation Results - Fold: 3, Epoch: 21, PLCC: 0.8603, SROCC: 0.7994, MSE: 0.0076, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+outputs[:10,0] tensor([0.7650, 0.6105, 0.2324, 0.6882, 0.5982, 0.4819, 0.5688, 0.3397, 0.3705,
+        0.5137], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 22, PLCC: 0.9497, SROCC: 0.9387, MSE: 0.0030
+Validation Results - Fold: 3, Epoch: 22, PLCC: 0.8639, SROCC: 0.8033, MSE: 0.0075, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+outputs[:10,0] tensor([0.7598, 0.6527, 0.2768, 0.7870, 0.7817, 0.2724, 0.4600, 0.3094, 0.2768,
+        0.3067], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 23, PLCC: 0.9500, SROCC: 0.9394, MSE: 0.0030
+Validation Results - Fold: 3, Epoch: 23, PLCC: 0.8658, SROCC: 0.8058, MSE: 0.0075, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+outputs[:10,0] tensor([0.7678, 0.5190, 0.3031, 0.7382, 0.5965, 0.3363, 0.6762, 0.1289, 0.5884,
+        0.2507], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.8375, 0.6020, 0.2288, 0.7070, 0.8822, 0.4625, 0.5068, 0.2915, 0.4618,
+        0.4089], device='cuda:0')
+Train Results - Fold: 3, Epoch: 24, PLCC: 0.9502, SROCC: 0.9397, MSE: 0.0029
+Validation Results - Fold: 3, Epoch: 24, PLCC: 0.8647, SROCC: 0.8034, MSE: 0.0074, Best PLCC: 0.8781, Best SROCC: 0.8223, Best MSE: 0.0065
+decay_rate is set to 1.0
+outputs[:10,0] tensor([0.6505, 0.5357, 0.4432, 0.4066, 0.3257, 0.5495, 0.0774, 0.3900, 0.2916,
+        0.0768], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 0, PLCC: -0.0327, SROCC: -0.0236, MSE: 0.0422
+Validation Results - Fold: 4, Epoch: 0, PLCC: -0.0105, SROCC: 0.0134, MSE: 0.0408, Best PLCC: 0.0000, Best SROCC: 0.0134, Best MSE: 0.0408
+outputs[:10,0] tensor([0.7125, 0.4932, 0.5223, 0.6357, 0.3494, 0.4378, 0.2486, 0.3649, 0.4273,
+        0.1687], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 1, PLCC: 0.8058, SROCC: 0.7479, MSE: 0.0127
+Validation Results - Fold: 4, Epoch: 1, PLCC: 0.7949, SROCC: 0.7283, MSE: 0.0140, Best PLCC: 0.7949, Best SROCC: 0.7283, Best MSE: 0.0140
+outputs[:10,0] tensor([0.9041, 0.6636, 0.4547, 0.5334, 0.2851, 0.4919, 0.1226, 0.2775, 0.2567,
+        0.0801], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 2, PLCC: 0.8925, SROCC: 0.8579, MSE: 0.0073
+Validation Results - Fold: 4, Epoch: 2, PLCC: 0.8492, SROCC: 0.8211, MSE: 0.0108, Best PLCC: 0.8492, Best SROCC: 0.8211, Best MSE: 0.0108
+outputs[:10,0] tensor([0.7034, 0.4861, 0.5760, 0.7463, 0.4674, 0.4026, 0.2355, 0.6078, 0.2979,
+        0.0720], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 3, PLCC: 0.9009, SROCC: 0.8729, MSE: 0.0057
+Validation Results - Fold: 4, Epoch: 3, PLCC: 0.8482, SROCC: 0.8176, MSE: 0.0092, Best PLCC: 0.8492, Best SROCC: 0.8211, Best MSE: 0.0092
+outputs[:10,0] tensor([0.6133, 0.5500, 0.3701, 0.7621, 0.5759, 0.6050, 0.2611, 0.4932, 0.4901,
+        0.0508], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 4, PLCC: 0.9113, SROCC: 0.8891, MSE: 0.0053
+Validation Results - Fold: 4, Epoch: 4, PLCC: 0.8506, SROCC: 0.8210, MSE: 0.0091, Best PLCC: 0.8506, Best SROCC: 0.8211, Best MSE: 0.0091
+outputs[:10,0] tensor([0.4200, 0.7103, 0.4746, 0.4409, 0.5388, 0.7218, 0.4665, 0.2810, 0.3969,
+        0.2017], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 5, PLCC: 0.9060, SROCC: 0.8816, MSE: 0.0058
+Validation Results - Fold: 4, Epoch: 5, PLCC: 0.8599, SROCC: 0.8311, MSE: 0.0091, Best PLCC: 0.8599, Best SROCC: 0.8311, Best MSE: 0.0091
+outputs[:10,0] tensor([0.6808, 0.4153, 0.7569, 0.6663, 0.3212, 0.7223, 0.1365, 0.5886, 0.5059,
+        0.0359], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 6, PLCC: 0.9111, SROCC: 0.8901, MSE: 0.0053
+Validation Results - Fold: 4, Epoch: 6, PLCC: 0.8513, SROCC: 0.8213, MSE: 0.0093, Best PLCC: 0.8599, Best SROCC: 0.8311, Best MSE: 0.0091
+outputs[:10,0] tensor([0.4618, 0.6411, 0.4528, 0.4925, 0.3560, 0.7053, 0.1195, 0.4039, 0.3889,
+        0.0750], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 7, PLCC: 0.9224, SROCC: 0.9002, MSE: 0.0046
+Validation Results - Fold: 4, Epoch: 7, PLCC: 0.8642, SROCC: 0.8337, MSE: 0.0083, Best PLCC: 0.8642, Best SROCC: 0.8337, Best MSE: 0.0083
+outputs[:10,0] tensor([0.4255, 0.7298, 0.5188, 0.5620, 0.2298, 0.4873, 0.3026, 0.5558, 0.3857,
+        0.0232], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 8, PLCC: 0.9230, SROCC: 0.9046, MSE: 0.0052
+Validation Results - Fold: 4, Epoch: 8, PLCC: 0.8712, SROCC: 0.8482, MSE: 0.0082, Best PLCC: 0.8712, Best SROCC: 0.8482, Best MSE: 0.0082
+outputs[:10,0] tensor([0.7569, 0.5480, 0.3404, 0.3863, 0.4118, 0.7977, 0.4589, 0.3242, 0.3349,
+        0.1047], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 9, PLCC: 0.9271, SROCC: 0.9072, MSE: 0.0041
+Validation Results - Fold: 4, Epoch: 9, PLCC: 0.8541, SROCC: 0.8272, MSE: 0.0086, Best PLCC: 0.8712, Best SROCC: 0.8482, Best MSE: 0.0082
+decay_rate is set to 0.8
+outputs[:10,0] tensor([0.6047, 0.5278, 0.4084, 0.6238, 0.4416, 0.4495, 0.3340, 0.3732, 0.5582,
+        0.1166], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 10, PLCC: 0.9251, SROCC: 0.9097, MSE: 0.0043
+Validation Results - Fold: 4, Epoch: 10, PLCC: 0.8635, SROCC: 0.8371, MSE: 0.0084, Best PLCC: 0.8712, Best SROCC: 0.8482, Best MSE: 0.0082
+outputs[:10,0] tensor([0.6745, 0.5156, 0.3397, 0.6419, 0.3840, 0.7052, 0.2115, 0.3143, 0.3425,
+        0.0845], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 11, PLCC: 0.9338, SROCC: 0.9189, MSE: 0.0037
+Validation Results - Fold: 4, Epoch: 11, PLCC: 0.8660, SROCC: 0.8529, MSE: 0.0080, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0080
+outputs[:10,0] tensor([0.4978, 0.4802, 0.5384, 0.6308, 0.4389, 0.7034, 0.3706, 0.2777, 0.3211,
+        0.0683], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 12, PLCC: 0.9376, SROCC: 0.9240, MSE: 0.0036
+Validation Results - Fold: 4, Epoch: 12, PLCC: 0.8690, SROCC: 0.8456, MSE: 0.0079, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0079
+outputs[:10,0] tensor([0.6060, 0.5642, 0.4472, 0.6768, 0.4537, 0.5515, 0.1663, 0.4453, 0.2605,
+        0.0573], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 13, PLCC: 0.9460, SROCC: 0.9313, MSE: 0.0032
+Validation Results - Fold: 4, Epoch: 13, PLCC: 0.8672, SROCC: 0.8381, MSE: 0.0079, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0079
+outputs[:10,0] tensor([0.7144, 0.5641, 0.4477, 0.5422, 0.3843, 0.6878, 0.3553, 0.3557, 0.5938,
+        0.0350], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 14, PLCC: 0.9432, SROCC: 0.9293, MSE: 0.0038
+Validation Results - Fold: 4, Epoch: 14, PLCC: 0.8659, SROCC: 0.8475, MSE: 0.0084, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0079
+outputs[:10,0] tensor([0.3828, 0.6844, 0.5967, 0.7535, 0.2934, 0.6892, 0.3442, 0.5201, 0.4867,
+        0.0198], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 15, PLCC: 0.9534, SROCC: 0.9444, MSE: 0.0026
+Validation Results - Fold: 4, Epoch: 15, PLCC: 0.8662, SROCC: 0.8344, MSE: 0.0079, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0079
+outputs[:10,0] tensor([0.5888, 0.7713, 0.4468, 0.6520, 0.4927, 0.5547, 0.4184, 0.4669, 0.2633,
+        0.0785], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 16, PLCC: 0.9563, SROCC: 0.9463, MSE: 0.0026
+Validation Results - Fold: 4, Epoch: 16, PLCC: 0.8663, SROCC: 0.8410, MSE: 0.0079, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0079
+outputs[:10,0] tensor([0.5511, 0.6437, 0.4882, 0.7722, 0.5122, 0.5266, 0.2666, 0.6794, 0.5007,
+        0.0494], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 17, PLCC: 0.9522, SROCC: 0.9377, MSE: 0.0028
+Validation Results - Fold: 4, Epoch: 17, PLCC: 0.8667, SROCC: 0.8427, MSE: 0.0078, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0078
+outputs[:10,0] tensor([0.5843, 0.6099, 0.4546, 0.6216, 0.4574, 0.6746, 0.2948, 0.4201, 0.4296,
+        0.1149], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 18, PLCC: 0.9550, SROCC: 0.9490, MSE: 0.0033
+Validation Results - Fold: 4, Epoch: 18, PLCC: 0.8698, SROCC: 0.8396, MSE: 0.0087, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0078
+outputs[:10,0] tensor([0.4885, 0.5422, 0.5077, 0.7085, 0.4381, 0.7039, 0.1260, 0.5503, 0.2843,
+        0.0185], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 19, PLCC: 0.9618, SROCC: 0.9555, MSE: 0.0022
+Validation Results - Fold: 4, Epoch: 19, PLCC: 0.8686, SROCC: 0.8433, MSE: 0.0078, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0078
+decay_rate is set to 0.6400000000000001
+outputs[:10,0] tensor([0.5927, 0.4226, 0.6628, 0.6596, 0.4043, 0.6066, 0.2960, 0.4719, 0.3727,
+        0.0269], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 20, PLCC: 0.9629, SROCC: 0.9592, MSE: 0.0022
+Validation Results - Fold: 4, Epoch: 20, PLCC: 0.8708, SROCC: 0.8451, MSE: 0.0078, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0078
+outputs[:10,0] tensor([0.5325, 0.7006, 0.4755, 0.6571, 0.3787, 0.8137, 0.3483, 0.5036, 0.4342,
+        0.0922], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 21, PLCC: 0.9649, SROCC: 0.9609, MSE: 0.0020
+Validation Results - Fold: 4, Epoch: 21, PLCC: 0.8618, SROCC: 0.8265, MSE: 0.0081, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0078
+outputs[:10,0] tensor([0.4339, 0.7427, 0.6137, 0.6104, 0.2780, 0.6693, 0.1968, 0.4964, 0.4025,
+        0.0254], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 22, PLCC: 0.9649, SROCC: 0.9626, MSE: 0.0021
+Validation Results - Fold: 4, Epoch: 22, PLCC: 0.8643, SROCC: 0.8302, MSE: 0.0082, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0078
+outputs[:10,0] tensor([0.5444, 0.7890, 0.4555, 0.5797, 0.1826, 0.7440, 0.3033, 0.5971, 0.2655,
+        0.0551], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 23, PLCC: 0.9652, SROCC: 0.9632, MSE: 0.0021
+Validation Results - Fold: 4, Epoch: 23, PLCC: 0.8657, SROCC: 0.8340, MSE: 0.0082, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0078
+outputs[:10,0] tensor([0.4854, 0.6211, 0.3914, 0.7592, 0.2884, 0.7550, 0.2912, 0.3755, 0.3827,
+        0.0820], device='cuda:0', grad_fn=<SelectBackward0>)
+labels[:10,0] tensor([0.5068, 0.6543, 0.4513, 0.6238, 0.3601, 0.6242, 0.2915, 0.4618, 0.4089,
+        0.0046], device='cuda:0')
+Train Results - Fold: 4, Epoch: 24, PLCC: 0.9664, SROCC: 0.9639, MSE: 0.0020
+Validation Results - Fold: 4, Epoch: 24, PLCC: 0.8642, SROCC: 0.8304, MSE: 0.0081, Best PLCC: 0.8712, Best SROCC: 0.8529, Best MSE: 0.0078
+Average PLCC: 0.8601
+Average SROCC: 0.8202
+Average MSE: 0.0078
