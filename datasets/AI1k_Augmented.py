@@ -190,12 +190,11 @@ def AI1k_load_data(mode='train', split=0):
                                                         suffix=f'_split_{split}',
                                                         transform=transforms.Compose([
                                                             Rescale(output_size=(256, 256)),
-                                                                                      RandomHorizontalFlip(0.5),
-                                                                                      RandomCrop(
-                                                                                          output_size=output_size),
-                                                                                      Normalize(),
-                                                                                      ToTensor(),
-                                                                                      ]))
+                                                            RandomHorizontalFlip(0.5),
+                                                            RandomCrop(output_size=output_size),
+                                                            Normalize(),
+                                                            ToTensor(),
+                                                            ]))
         dataloader = DataLoader(transformed_dataset_train, batch_size=50,
                                 shuffle=False, num_workers=0, collate_fn=my_collate)
     elif mode == 'val':
@@ -205,9 +204,9 @@ def AI1k_load_data(mode='train', split=0):
                                                         suffix=f'_split_{split}',
                                                         transform=transforms.Compose([
                                                             Rescale(output_size=(224, 224)),
-                                                                                      Normalize(),
-                                                                                      ToTensor(),
-                                                                                      ]))
+                                                            Normalize(),
+                                                            ToTensor(),
+                                                            ]))
         dataloader = DataLoader(transformed_dataset_valid, batch_size=50,
                                 shuffle=False, num_workers=0, collate_fn=my_collate)
     elif mode == 'test':  # 'test' mode
@@ -215,10 +214,10 @@ def AI1k_load_data(mode='train', split=0):
         transformed_dataset_test = ImageRatingsDataset( root_dir=data_dir,
                                                         mode=mode,
                                                         transform=transforms.Compose([
-                                                                                    Rescale(output_size=(224, 224)),
-                                                                                     Normalize(),
-                                                                                     ToTensor(),
-                                                                                     ]))
+                                                            Rescale(output_size=(224, 224)),
+                                                            Normalize(),
+                                                            ToTensor(),
+                                                            ]))
         dataloader = DataLoader(transformed_dataset_test, batch_size=50,
                                 shuffle=False, num_workers=0, collate_fn=my_collate)
     elif mode == 'all':
@@ -227,10 +226,10 @@ def AI1k_load_data(mode='train', split=0):
         transformed_dataset_all = ImageRatingsDataset( root_dir=data_dir,
                                                         mode=mode,
                                                         transform=transforms.Compose([
-                                                                                    Rescale(output_size=(224, 224)),
-                                                                                     Normalize(),
-                                                                                     ToTensor(),
-                                                                                     ]))
+                                                            Rescale(output_size=(224, 224)),
+                                                            Normalize(),
+                                                            ToTensor(),
+                                                            ]))
         dataloader = DataLoader(transformed_dataset_all, batch_size=50,
                                 shuffle=False, num_workers=0, collate_fn=my_collate)
     else:
