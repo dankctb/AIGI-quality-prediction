@@ -5,6 +5,8 @@
 ```bash
 $ pip install -r requirements.txt
 ```
+## recommend for usage of PIL rather than opencv due to utilization in pytorch
+
 ### Step 2: Clone the Repository
 
 Clone the repository to your local machine using the following command:
